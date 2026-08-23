@@ -1,6 +1,6 @@
 # 🧬 Bioinformatics Methods
 
-A centralized repository documenting hands-on computational biology and bioinformatics methods. The current module focuses on fundamental sequence analysis, including biological sequence parsing, nucleotide composition analysis, and dynamic programming approaches for pairwise sequence alignment.
+A repository documenting hands-on computational biology and bioinformatics methods. 
 
 ## 📌 Week 01: Sequence Analysis Foundations
 
