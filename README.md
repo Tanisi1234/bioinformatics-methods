@@ -1,6 +1,6 @@
 # Bioinformatics Methods
 
-This repository contains implementations of fundamental bioinformatics methods and sequence analysis techniques developed during my internship.
+This repository contains implementations of fundamental bioinformatics methods and sequence analysis techniques developed during my internship
 
 ## Week 01: Sequence Analysis Foundations
 
