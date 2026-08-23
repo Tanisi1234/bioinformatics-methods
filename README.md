@@ -1,4 +1,4 @@
-# 🧬 Bioinformatics Methods
+#  Bioinformatics Methods
 
 A repository documenting hands-on computational biology and bioinformatics methods. 
 
@@ -56,7 +56,7 @@ bioinformatics-methods/
 | `Needleman_Wunsch.ipynb` | Global Alignment | Implements the Needleman–Wunsch algorithm for end-to-end sequence alignment |
 | `Smith_Waterman.ipynb` | Local Alignment | Implements the Smith–Waterman algorithm for identifying high-scoring local sequence alignments |
 
-## 🧬 Sequence Analysis Methods
+##  Sequence Analysis Methods
 
 ### Global Alignment — Needleman–Wunsch
 
@@ -66,7 +66,7 @@ The Needleman–Wunsch algorithm performs global sequence alignment by aligning 
 
 The Smith–Waterman algorithm performs local sequence alignment by identifying the highest-scoring regions between two biological sequences. It is particularly useful for detecting conserved regions and sequence similarities.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
