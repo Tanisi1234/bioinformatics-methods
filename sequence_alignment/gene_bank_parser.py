@@ -106,7 +106,6 @@ else:
             except Exception as e:
                 print(f"  {attr}: <error accessing attribute: {e}> ")
 
-"""Since the `genes` list is empty, it means there are no features with `type == "gene"` in your GenBank file. Let's look at all the features and their qualifiers to understand where the gene information might be stored."""
 
 print("Inspecting all features in gb_obj:")
 for i, feature in enumerate(gb_obj.features):
