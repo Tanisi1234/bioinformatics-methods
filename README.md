@@ -2,7 +2,7 @@
 
 A repository documenting hands-on computational biology and bioinformatics methods. 
 
-## 📌 Week 01: Sequence Analysis Foundations
+##  Week 01: Sequence Analysis Foundations
 
 This module covers the basics of working with biological sequence data programmatically using Python, Biopython, and Jupyter Notebooks.
 
@@ -15,7 +15,7 @@ Key topics include:
 - Global sequence alignment using Needleman–Wunsch
 - Local sequence alignment using Smith–Waterman
 
-## 🛠️ Technologies
+##  Technologies
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-4.3+-276DC3?style=flat&logo=r&logoColor=white)
@@ -23,7 +23,7 @@ Key topics include:
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 bioinformatics-methods/
@@ -45,7 +45,7 @@ bioinformatics-methods/
 └── requirements.txt                # Python dependencies
 ```
 
-## 📋 Modules
+##  Modules
 
 | Module / Script | Primary Focus | Key Functionality |
 |---|---|---|
@@ -95,7 +95,7 @@ python sequence_alignment/gc_calculator.py
 ```
 
 
-## 📦 Dependencies
+## Dependencies
 
 The project primarily uses:
 
@@ -112,7 +112,7 @@ Install all required dependencies using:
 pip install -r requirements.txt
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
