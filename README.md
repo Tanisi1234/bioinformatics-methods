@@ -1,10 +1,10 @@
-#  Bioinformatics Methods
+# Bioinformatics Methods
 
-A repository documenting hands-on computational biology and bioinformatics methods. 
+This repository contains implementations of fundamental bioinformatics methods and sequence analysis techniques developed during my internship.
 
-##  Week 01: Sequence Analysis Foundations
+## Week 01: Sequence Analysis Foundations
 
-This module covers the basics of working with biological sequence data programmatically using Python, Biopython, and Jupyter Notebooks.
+This week's work focused on programmatic analysis of biological sequence methods.
 
 Key topics include:
 
@@ -28,24 +28,24 @@ Key topics include:
 ```text
 bioinformatics-methods/
 │
-├── Data/                           # Input sequence datasets
-│   └── ...                         # FASTA / GenBank files
+├── Data/
+│   ├── sequence.fasta
+│   └── sequence.gb
 │
-├── sequence_alignment/             # Week 01 sequence analysis implementations
-│   ├── Needleman_Wunsch.ipynb      # Global sequence alignment
-│   ├── Smith_Waterman.ipynb        # Local sequence alignment
-│   ├── dna_length_calculator.py    # DNA sequence length analysis
-│   ├── fasta_file_analysis.py      # FASTA parsing and sequence extraction
-│   ├── gc_calculator.py            # GC-content and nucleotide composition
-│   └── gene_bank_parser.py         # GenBank record retrieval and parsing
+├── sequence_alignment/
+│   ├── Needleman_Wunsch.ipynb
+│   ├── Smith_Waterman.ipynb
+│   ├── dna_length_calculator.py
+│   ├── fasta_file_analysis.py
+│   ├── gc_calculator.py
+│   └── gene_bank_parser.py
 │
-├── .gitignore                      # Git ignore rules
-├── LICENSE                         # MIT License
-├── README.md                       # Project documentation
-└── requirements.txt                # Python dependencies
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
-##  Modules
+##  Implemented Modules
 
 | Module / Script | Primary Focus | Key Functionality |
 |---|---|---|
@@ -66,34 +66,6 @@ The Needleman–Wunsch algorithm performs global sequence alignment by aligning 
 
 The Smith–Waterman algorithm performs local sequence alignment by identifying the highest-scoring regions between two biological sequences. It is particularly useful for detecting conserved regions and sequence similarities.
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Tanisi1234/bioinformatics-methods.git
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd bioinformatics-methods
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run a Sequence Analysis Script
-
-For example:
-
-```bash
-python sequence_alignment/gc_calculator.py
-```
-
 
 ## Dependencies
 
@@ -106,17 +78,7 @@ The project primarily uses:
 - Matplotlib
 - Pandas
 
-Install all required dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
-##  License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 **Bioinformatics Methods**  
 Computational biology • Sequence analysis • Biological data processing
+This repository will be updated throughout as additional methods and analyses are explored.
