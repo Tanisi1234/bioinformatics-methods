@@ -41,9 +41,9 @@ Key topics include:
 - **Quality Control (QC) & Cell Filtering**: Computing mitochondrial expression percentages (`PercentageFeatureSet("^MT-")`), visualizing QC distributions via `VlnPlot` and `FeatureScatter`, and filtering low-quality/dying cells (`nFeature_RNA` between 200 and 2,500, `percent.mt < 5%`).
 - **Global Data Normalization**: Scaling total gene counts using log-normalization (`LogNormalize`, scale factor = 10,000).
 - **Feature Selection (HVGs)**: Identifying the top 2,000 Highly Variable Genes via variance modeling (`FindVariableFeatures`) and labeling key marker outliers.
-- **Data Scaling & PCA**: Scaling linear expression across all genes (`ScaleData`), performing Principal Component Analysis (`RunPCA`), and evaluating component variance using `ElbowPlot`[cite: 1].
-- **Graph-Based Clustering**: Building $k$-nearest neighbor ($k$-NN) graphs (`FindNeighbors`, dims 1:15)[cite: 1] and partitioning cells into distinct clusters (`FindClusters`, resolution = 0.1)[cite: 1].
-- **Non-Linear Dimensionality Reduction**: Mapping high-dimensional cell states into 2D manifolds using **UMAP** (`RunUMAP`, dims 1:10)[cite: 1] and visualizing clusters via `DimPlot`[cite: 1].
+- **Data Scaling & PCA**: Scaling linear expression across all genes (`ScaleData`), performing Principal Component Analysis (`RunPCA`), and evaluating component variance using `ElbowPlot`
+- **Graph-Based Clustering**: Building $k$-nearest neighbor ($k$-NN) graphs (`FindNeighbors`, dims 1:15)  and partitioning cells into distinct clusters (`FindClusters`, resolution = 0.1)
+- **Non-Linear Dimensionality Reduction**: Mapping high-dimensional cell states into 2D manifolds using **UMAP** (`RunUMAP`, dims 1:10) and visualizing clusters via `DimPlot`
 
 ## 🛠️ Tech Stack & Badges
 
